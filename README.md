@@ -9,22 +9,24 @@ HOWEVER, be warned this program can overwrite files inside the dl_temp directory
 python3 path/to/gelbooru_dl.py [naming option] [tags]
 
 ==================== TIPS =====================
+
 when asked to save a file, input nothing for no
 ermmmm.... uhmmm......
 it takes me a while to dl some images so be patient
 ctrl + c to quit out of the program at any time (hope thats the same on windows lmao scrub)
 
 ==================== NAMING OPTIONS ====================
+
 pass only 1 of these 5 choices. applies to all files saved to disk in current session
+
+
 
 auto or a: assigns first 2 tags provided to be the file name
            auto exits if only 1 tag was provided
-
 for example: > python3 gelbooru_dl.py a armpits bikini -ai tanned
            --> armpits_bikini1.jpg saved to disk
 good for one liners such as rumia bikini armpit or whatever
 not useful for characters, u may get shit like hakurei_reimu_(pc-98)_heart-shaped_pupils24.jpg
-
 
 
 predef or p: uses one file name inputted by the user
@@ -59,6 +61,8 @@ random or r: for u who don't care about file names (dude) uses the url of the cu
 for example > python3 gelbooru_dl.py r hakurei_reimu yuri
             > 24wiuEfFEfjdq9BYfqe.jpg saved to disk
 not implemented yet
+
+
 ===================== TAGS ====================
 
 must be separated by spaces
