@@ -11,8 +11,11 @@ python3 path/to/gelbooru_dl.py [naming option] [tags]
 ==================== TIPS =====================
 
 when asked to save a file, input nothing for no
+
 ermmmm.... uhmmm......
+
 it takes me a while to dl some images so be patient
+
 ctrl + c to quit out of the program at any time (hope thats the same on windows lmao scrub)
 
 ==================== NAMING OPTIONS ====================
