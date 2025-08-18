@@ -23,17 +23,28 @@ pass only 1 of these 5 choices. applies to all files saved to disk in current se
 
 auto or a: assigns first 2 tags provided to be the file name
            auto exits if only 1 tag was provided
-for example: > python3 gelbooru_dl.py a armpits bikini -ai tanned
-           --> armpits_bikini1.jpg saved to disk
+for example: 
+
+> python3 gelbooru_dl.py a armpits bikini -ai tanned
+
+> armpits_bikini1.jpg saved to disk
+
+
 good for one liners such as rumia bikini armpit or whatever
 not useful for characters, u may get shit like hakurei_reimu_(pc-98)_heart-shaped_pupils24.jpg
 
 
 predef or p: uses one file name inputted by the user
              input the desired filename in the terminal after opening the script
-for example > python3 gelbooru_dl.py p hakurei_reimu_(pc-98) heart-shaped_pupils
-            > reimu_purple
-          --> reimu_purple1.jpg saved to disk
+for example:
+
+> python3 gelbooru_dl.py p hakurei_reimu_(pc-98) heart-shaped_pupils
+
+> reimu_purple
+
+> reimu_purple1.jpg saved to disk
+
+
 no error handling around if ur operating system can handle the file #notmyproblem
 
 
@@ -45,21 +56,41 @@ manual or m: user chooses file name for each individual file, if they choose to 
 char or c: combination of predef and manual, user inputs a base file name for all files & an individual filename appended to base for each file
            input the base filename in the terminal after opening the script
            NB: does not add a number at end of filename, can overwrite existing files. see manual
-for example > python3 gelbooru_dl.py c hakurei_reimu yuri
-            > reimu
-            > sweatyarmpit
-          --> reimu_sweatyarmpit.jpg saved to disk
-            > _marisa_kissing
-          --> reimu_marisa_kissing.jpg saved to disk
-for example > reimu_yukarin
-            > gapsex
-          --> reimu_yukarin_gaprape.jpg saved to disk
+for example:
+
+> python3 gelbooru_dl.py c sonozaki_mion yuri
+
+> mion
+
+> sweatyarmpit
+
+> mion_sweatyarmpit.jpg saved to disk
+
+> _shion_kissing
+
+> mion_shion_kissing.jpg saved to disk
+
+
+for example:
+
+> reimu_yukarin
+
+> gaperm
+
+> reimu_yukarin_gaperm.jpg saved to disk
+
+
 best used when ur looking for a specific character, i use this one the most
 
 
 random or r: for u who don't care about file names (dude) uses the url of the current picture
-for example > python3 gelbooru_dl.py r hakurei_reimu yuri
-            > 24wiuEfFEfjdq9BYfqe.jpg saved to disk
+for example:
+
+> python3 gelbooru_dl.py r hakurei_reimu yuri
+
+> 24wiuEfFEfjdq9BYfqe.jpg saved to disk
+
+
 not implemented yet
 
 
