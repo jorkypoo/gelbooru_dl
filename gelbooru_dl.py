@@ -3,7 +3,7 @@ from PIL import Image
 from pathlib import Path
 
 def get_nextpage():
-  current_page = f'https://gelbooru.com/index.php?page=post&s=list&tags={tags_f}&pid={page_no}'
+  current_page = f'https://gelbooru.com/index.php?page=post&s=list&tags={tags_f}-video&pid={page_no}'
   req = requests.get(current_page)
   soup = bs4.BeautifulSoup(req.text, 'html.parser')
   p = soup.find_all(attrs={'class':'thumbnail-preview'})

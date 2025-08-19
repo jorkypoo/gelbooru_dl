@@ -4,6 +4,8 @@ dependencies: requests, bs4 & PIL - install with pip
 it's ok to put this program right in ur pictures folder, it creates it's own folder to save images to; separate from ur own, preventing overwrites
 HOWEVER, be warned this program can overwrite files inside the dl_temp directory. don't come whinging to me if that happens, ur meant to move them out after
 
+this program also does not work with video files, you'll encounter a PIL error. working on this? no. i'm jacking my shit off HARD rn. maybe later...
+
 ==================== USAGE ====================
 
 python3 path/to/gelbooru_dl.py [naming option] [tags]
