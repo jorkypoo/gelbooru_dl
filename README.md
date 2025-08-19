@@ -11,12 +11,14 @@ this program also does not work with video files, you'll encounter a PIL error. 
 python3 path/to/gelbooru_dl.py [naming option] [tags]
 
 ==================== TIPS =====================
+
 when asked to save a file, input nothing for no
 ermmmm.... uhmmm......
 it takes me a while to dl some images so be patient
 ctrl + c to quit out of the program at any time (hope thats the same on windows lmao scrub)
 
 ==================== NAMING OPTIONS ====================
+
 pass only 1 of these 5 choices. applies to all files saved to disk in current session
 
 auto or a: assigns first 2 tags provided to be the file name
