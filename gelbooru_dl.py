@@ -40,8 +40,9 @@ elif sys.argv[1] == 'char' or sys.argv[1] == 'c':
 elif sys.argv[1] == 'random' or sys.argv[1] == 'r':
   print("not implemented yet")
 else:
-  print("no valid naming option passed, quitting program sort of gracefully, not really")
+  print("no valid naming option passed, quitting program sort of gracefully... kidding, not really")
   print("read the readme u retard")
+  print("error messages be like:")
   sys.exit()
 f_tempname = file_name
 
