@@ -1,4 +1,4 @@
-READ ME!!!
+READ ME!!
 dependencies: requests, bs4 & PIL - install with pip
 
 it's ok to put this program right in ur pictures folder, it creates it's own folder to save images to; separate from ur own, preventing overwrites
